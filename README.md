@@ -7,7 +7,7 @@ Hi! I’m **John Loyd Palmero**, an aspiring web developer passionate about crea
 ## 📂 Portfolio Sections  
 - **Home** – Introduction and personal branding  
 - **About Me** – Background and hobbies  
-- **Projects** – Showcasing my works and outputs  
+- **Projects** – Showcasing my works and outputs
 - **Skills** – Programming and design skills  
 - **Contact** – How to reach me  
 
@@ -16,7 +16,7 @@ Hi! I’m **John Loyd Palmero**, an aspiring web developer passionate about crea
 
 ## 🛠️ Tech Used  
 - **HTML5** – Page structure  
-- **CSS3** – Styling and layout  
+- **CSS** – Styling and layout  
 - **JavaScript** – Interactivity and functions  
 - **GitHub Pages** – Deployment  
 

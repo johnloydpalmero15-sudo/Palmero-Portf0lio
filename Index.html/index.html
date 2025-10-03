@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-container">
+                <h1 class="logo">Your Name</h1>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Hobby">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <img src="/Assets/download.jpg" alt="Profile photo of Your Name, a web developer" class="profile-img">
+                <h2>About Me</h2>
+                <p>I'm a web developer with experience in HTML, CSS, JavaScript, a This portfolio showcases my skills and projects.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Hobby</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="/Assets/download.webp" alt="Screenshot of Hobby 1: A responsive e-commerce site">
+                        <h3>Hooby : Playing Online Games</h3>
+                        <p></p>
+                        <a href="https://github.com/yourusername/project1" class="project-link" target="_blank">View on GitHub</a>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p> Contact Me! in Email at johnloydpalmero15@gmail.com or My Contact Number 09457612967.<p>
+                <form class="contact-form" id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved. | <a href="#about">Back to Top</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
